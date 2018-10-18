@@ -1,0 +1,239 @@
+.app {
+  margin: 0%;
+  padding: 0; }
+
+header {
+  position: absolute;
+  z-index: 999;
+  background-color: black;
+  opacity: .5;
+  height: 60px;
+  width: 100%;
+  display: fixed;
+  grid-template-columns: repeat(2, 1fr);
+  display: flex; }
+  header h2 {
+    margin: auto;
+    width: 70%;
+    padding-left: 40px; }
+    header h2 a {
+      text-decoration: none;
+      opacity: 0.75;
+      color: #fff; }
+      header h2 a:hover {
+        opacity: 1; }
+  header nav {
+    display: inline-flex;
+    width: 30%;
+    margin: auto;
+    list-style: none; }
+    header nav li {
+      padding: 0 30px; }
+      header nav li a {
+        text-decoration: none;
+        opacity: 0.75;
+        color: #fff; }
+        header nav li a:hover {
+          opacity: 1; }
+
+.hero .background-image {
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }
+  .hero .background-image .hero-content-area {
+    position: absolute;
+    z-index: 999;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    text-align: center;
+    color: #fff; }
+    .hero .background-image .hero-content-area h1 {
+      font: bold 60px "Open Sans", sans-serif;
+      line-height: 10px; }
+    .hero .background-image .hero-content-area h3 {
+      font: normal 28px "Open Sans", sans-serif; }
+    .hero .background-image .hero-content-area a {
+      background-color: black;
+      opacity: .6;
+      padding: 10px 40px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1em;
+      border-radius: 5px; }
+      .hero .background-image .hero-content-area a:hover {
+        opacity: 1;
+        background-color: green;
+        opacity: .7; }
+
+.destinations {
+  height: 900px;
+  margin: 20px auto; }
+  .destinations h3 {
+    text-transform: capitalize;
+    font: bold 32px "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center; }
+  .destinations p {
+    max-width: 775px;
+    line-height: 2;
+    margin: 30px auto;
+    text-align: center; }
+  .destinations hr {
+    width: 250px;
+    height: 3px;
+    background-color: #3f51b5;
+    border: 0;
+    margin-bottom: 50px; }
+  .destinations .grid {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0%; }
+    .destinations .grid div {
+      padding: 5px; }
+    .destinations .grid .pic1 {
+      background-image: url("https://images.pexels.com/photos/705075/pexels-photo-705075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      height: 300px;
+      width: 28%;
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center; }
+    .destinations .grid .pic2 {
+      background-image: url("https://images.pexels.com/photos/461797/pexels-photo-461797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      height: 300px;
+      width: 68%;
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center; }
+    .destinations .grid .pic3 {
+      background-image: url("https://images.pexels.com/photos/709496/pexels-photo-709496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      height: 300px;
+      width: 68%;
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center; }
+    .destinations .grid .pic4 {
+      background-image: url("https://images.pexels.com/photos/1366901/pexels-photo-1366901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      height: 300px;
+      width: 28%;
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center; }
+
+.packges {
+  height: 1000px;
+  background-color: #eee; }
+  .packges .title {
+    text-transform: capitalize;
+    font: bold 32px "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 40px; }
+  .packges p {
+    max-width: 775px;
+    line-height: 2;
+    margin: 30px auto;
+    text-align: center;
+    padding-bottom: 50px; }
+  .packges hr {
+    width: 250px;
+    height: 3px;
+    background-color: #3f51b5;
+    border: 0;
+    margin-bottom: 50px; }
+  .packges .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    margin: 20px auto; }
+    .packges .grid li {
+      display: block;
+      text-align: center;
+      max-width: 500px;
+      margin: 0 auto; }
+      .packges .grid li i {
+        color: green;
+        font-size: 60px; }
+
+.testimonials {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center; }
+  .testimonials p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 675px;
+    margin: 0 auto;
+    padding: 30px; }
+  .testimonials h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font: normal 28px "Open Sans", sans-serif; }
+  .testimonials h3 {
+    text-transform: capitalize;
+    font: bold 32px "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 40px; }
+
+.contact {
+  height: 450px;
+  background-color: #eee;
+  text-align: center; }
+  .contact .title {
+    text-transform: capitalize;
+    font: bold 32px "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 40px; }
+  .contact p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 675px;
+    margin: 0 auto;
+    padding: 30px; }
+  .contact input {
+    display: block;
+    width: 70%;
+    height: 20px;
+    margin: 40px auto; }
+  .contact a {
+    width: 80px;
+    height: 20px;
+    background-color: #eee;
+    opacity: .6;
+    padding: 10px 30px;
+    text-decoration: none; }
+    .contact a:hover {
+      opacity: 1; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #607d8b;
+  color: #fff;
+  padding: 20px 0; }
+  footer ul {
+    overflow: hidden;
+    display: inline-flex; }
+    footer ul li {
+      padding: 0 20px;
+      list-style: none;
+      float: right;
+      text-align: right; }
+      footer ul li i {
+        color: #fff;
+        opacity: .7; }
+        footer ul li i:hover {
+          opacity: 1; }
